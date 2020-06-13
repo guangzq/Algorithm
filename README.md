@@ -55,5 +55,12 @@ cur指针指向后继节点，原cur节点作为pre,一直遍历到cur为空
 ## [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
 1.一个指针用来指向head,作为奇链表，一个指针作为偶链表，也指向head,
 一个指针用来暂存head,作为偶链表的head,然后分别排奇链表，偶链表
+
 2.奇指针的下下指针指向奇数，偶的下下指向偶数
+
 3.循环跳出条件：指针为空时
+
+## [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+1.将链表放到数组里
+
+2.利用首尾两个指针往中间遍历，如果不相等就意味着不是回文
