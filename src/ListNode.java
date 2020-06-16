@@ -1,5 +1,4 @@
 public class ListNode {
-<<<<<<< HEAD
     int val;
     ListNode next;
 
@@ -13,11 +12,5 @@ public class ListNode {
     ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
-=======
-    private int value;
-    public ListNode next;
-    public ListNode(int value) {
-        this.value = value;
->>>>>>> 414be41821d00a3ab480363d81bff852f20af773
     }
 }
