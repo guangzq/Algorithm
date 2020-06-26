@@ -86,3 +86,6 @@ cur指针指向后继节点，原cur节点作为pre,一直遍历到cur为空
 
 ## [1295. 统计位数为偶数的数字](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/)
 遍历数组，统计每个数字位数，为2则为偶数
+
+## [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+快指针走两步，慢指针走一步，如果有环，相当于环形跑道，快慢指针会相遇
