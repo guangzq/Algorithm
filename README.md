@@ -138,4 +138,40 @@ cur指针指向后继节点，原cur节点作为pre,一直遍历到cur为空
 * 返回哨兵结点->next
 > 注意C语言中如何创建对象，其实就是开辟空间，通过malloc(sizeof(需要创建对象的类型))
 
+## [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+中序遍历指的是先遍历左子树，再遍历根结点，再遍历右子树，即左根右
+* 中序遍历二叉搜索树的结果是排序后的结果
+### 如何中序遍历
+递归是最简单的方法，
+
+```
+public  void inorder(TreeNode root) {
+    inorder(root.left);
+    print(root.val);
+    inorder(root.right);
+} 
+```
+但递归是操作系统帮我们自动完成了函数的栈操作，所以尝试非递归方式,
+从根结点开始入栈，不断找左子树，直到找到左子树，然后出栈，然后再找右子树
+
+```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        while(stack.size() > 0 || root != null) {
+            if(root != null) {
+                stack.push(root);
+                root = root.left;
+            }else {
+                TreeNode tmp = stack.pop();
+                list.add(tmp.val);
+                root = tmp.right;
+            }
+        }
+        return list;
+    }
+}
+```
+
 
