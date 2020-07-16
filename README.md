@@ -173,5 +173,7 @@ class Solution {
     }
 }
 ```
+## [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
+可以用计数排序，搞不太懂，先跳过
 
 
