@@ -182,3 +182,8 @@ class Solution {
 2. 重新遍历字符串，字符出现次数为1即表示唯一
 
 
+## [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/submissions/)
+1. 通过指针j来遍历数组，将非0的值移到数组的左边，第一次遍历完后，指针j指向最后一个非0元素
+2. 第二次遍历，将指针右边的非0元素全部置为0
+
+
