@@ -189,4 +189,19 @@ class Solution {
 ## [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)
 因为遇到“#”则退回一个字符，很符合栈的弹栈操作，所以此处重构字符串，可以将非“#”的字符入栈，如果是“#”则出栈
 
+## [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+利用双指针，从各自链表head开始遍历，如果到tail,则指向对方head开始遍历，如果有相交肯定会相遇
+```c
+struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
+    struct ListNode *aP = headA;
+    struct ListNode *bP = headB;
+    while(aP != bP) {
+        aP = aP == NULL?headB:aP->next;
+        bP = bP == NULL?headA:bP->next;
+    }
+    return aP;
+}
+```
+
+
 
