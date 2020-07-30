@@ -1,6 +1,9 @@
 # Algorithm
 数据结构和算法练习
 
+## 收藏的一些github库，参考思路用
+* [小浩算法](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/01.html)
+
 ## 70.爬楼梯
 典型的递归问题，解决递归问题的关键
 * 1.找到递归的公式
@@ -191,6 +194,7 @@ class Solution {
 
 ## [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 利用双指针，从各自链表head开始遍历，如果到tail,则指向对方head开始遍历，如果有相交肯定会相遇
+
 ```c
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {
     struct ListNode *aP = headA;
@@ -203,5 +207,14 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 }
 ```
 
+## [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+LRU,最近最少使用算法，即如果超出链表的容量，则会将最近最少使用的元素删除，然后插入新元素
+java中的实现是LinkedHashMap,实现原理是双向链表，关键方法是
+```
+protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
+        return false;
+    }
+```
+该方法表示删除缓存策略
 
 
