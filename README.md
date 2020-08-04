@@ -217,4 +217,7 @@ protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
 ```
 该方法表示删除缓存策略
 
+## [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+利用hashset的元素唯一性
+
 
