@@ -1,6 +1,9 @@
 # Algorithm
 数据结构和算法练习
 
+## 思路题型分类练习
+[地址](https://github.com/guangzq/Algorithm/blob/master/md/sort.md)
+
 ## 收藏的一些github库，参考思路用
 * [小浩算法](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/01.html)
 * [题型分类](https://github.com/yuanguangxin/LeetCode?utm_source=gold_browser_extension)
