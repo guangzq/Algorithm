@@ -8,6 +8,9 @@
 * [小浩算法](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/01.html)
 * [题型分类](https://github.com/yuanguangxin/LeetCode?utm_source=gold_browser_extension)
 * [《玩儿转算法面试》](https://github.com/liuyubobobo/Play-with-Algorithm-Interview)
+* [大厂刷题热度top](https://github.com/afatcoder/LeetcodeTop)
+* [图解LeetCode](https://github.com/MisterBooo/LeetCodeAnimation)
+* [刷题套路总结fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
 
 ## 70.爬楼梯
 典型的递归问题，解决递归问题的关键
