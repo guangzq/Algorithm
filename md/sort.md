@@ -13,4 +13,9 @@
 定义两个指针left和right,
 1. right右移，并记录之前的累加之和
 2. left右移，直到前面之和大于等于s，此时记录min
+### 四.[26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/)
+定义两个指针start和end，分别指向0和1
+1. 如果值相等，则将end+1
+2. 如果不等，则将end的值赋给start+1,并将start+1
+3. 返回start+1
 
