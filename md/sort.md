@@ -19,3 +19,34 @@
 2. 如果不等，则将end的值赋给start+1,并将start+1
 3. 返回start+1
 
+## 动态规划
+思想：大问题拆分成若干小问题
+### 一.70.爬楼梯
+典型的递归问题，解决递归问题的关键
+* 1.找到递归的公式
+* 2.找出递归的退出条件，防止内存溢出
+
+针对此题，爬楼梯要么是1步，要么是2步，所以递归公式为f(n-1)+f(n-2),当只有一个台阶时,有一种走法，
+当有两种台阶时，有两种走法，所以退出条件为f(1)=1和f(2)=2
+
+### 二.[343. 整数拆分](https://leetcode-cn.com/problems/integer-break/)
+要数学证明呀，先放着
+
+### 三.[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/description/?utm_source=LCUS&utm_medium=ip_redirect_q_uns&utm_campaign=transfer2china)
+
+## 二叉树系列
+### 广度优先遍历(BFS)和深度优先遍历(DFS)
+1. 深度优先遍历：从根节点开始，按照纵向遍历左子树，直到找到叶子节点为止，然后回到前一个节点，遍历右子树，直到
+遍历完所有的可达节点
+2. 广度优先遍历：从根节点开始，在横向遍历二叉树层段节点的基础上纵向遍历二叉树的层次。
+> [代码实现](https://blog.csdn.net/mingwanganyu/article/details/72033122)
+
+### [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+深度优先遍历
+* 终止条件：根节点为空
+* 找出返回值：如果根节点为空，则返回高度为0；如果不为空，则取左右子树的高度+1
+
+### [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+
+
+
