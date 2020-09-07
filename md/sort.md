@@ -47,6 +47,13 @@
 * 找出返回值：如果根节点为空，则返回高度为0；如果不为空，则取左右子树的高度+1
 
 ### [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+层序遍历和二叉树的广度优先遍历类似，只不过每一层输出的是二维数组
+
+### [98.BST与其验证](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+
+### [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+
+### [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 
 
 
