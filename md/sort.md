@@ -35,7 +35,7 @@
 ### 三.[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/description/?utm_source=LCUS&utm_medium=ip_redirect_q_uns&utm_campaign=transfer2china)
 
 ## 二叉树系列
-### 广度优先遍历(BFS)和深度优先遍历(DFS)
+### 广度优先遍历(BFS:Breadth First Search)和深度优先遍历(DFS:Depth First Search)
 1. 深度优先遍历：从根节点开始，按照纵向遍历左子树，直到找到叶子节点为止，然后回到前一个节点，遍历右子树，直到
 遍历完所有的可达节点
 2. 广度优先遍历：从根节点开始，在横向遍历二叉树层段节点的基础上纵向遍历二叉树的层次。
@@ -50,6 +50,8 @@
 层序遍历和二叉树的广度优先遍历类似，只不过每一层输出的是二维数组
 
 ### [98.BST与其验证](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+可以利用中序遍历，即左根右的顺序，设置pre为long的min(int的min容易与左子树的第一个值重合)，
+如果root.val<=pre,则返回false,直到遍历完整颗二叉树，则证明是搜索二叉树
 
 ### [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
 
