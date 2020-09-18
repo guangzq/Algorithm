@@ -35,6 +35,8 @@
 ### 三.[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/description/?utm_source=LCUS&utm_medium=ip_redirect_q_uns&utm_campaign=transfer2china)
 
 ## 二叉树系列
+### 高度和深度如何定义
+* 高度为深度+1，深度为从根节点到叶子结点的层高
 ### 广度优先遍历(BFS:Breadth First Search)和深度优先遍历(DFS:Depth First Search)
 1. 深度优先遍历：从根节点开始，按照纵向遍历左子树，直到找到叶子节点为止，然后回到前一个节点，遍历右子树，直到
 遍历完所有的可达节点
@@ -54,7 +56,9 @@
 如果root.val<=pre,则返回false,直到遍历完整颗二叉树，则证明是搜索二叉树
 
 ### [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
-
+判断平衡二叉树的定义就是左右子树高度相差不能大于1，否则就不平衡了
+* 用递归分别求左右子树的高度，如果相差大于1，则不平衡
+* 如果求深度时为-1，则应提前判断-1
 ### [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 
 
