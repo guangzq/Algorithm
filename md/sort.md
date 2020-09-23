@@ -65,6 +65,7 @@
 ## 数组问题最常见
 ### [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
 ### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+* 用第一个值作为ans不断与其他值比对
 ### [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 ### [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
 ### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
