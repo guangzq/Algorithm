@@ -62,4 +62,11 @@
 ### [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 递归递归
 
+## 数组问题最常见
+### [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+### [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
+### [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
+### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
+
 
