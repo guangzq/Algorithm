@@ -67,6 +67,7 @@
 ### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
 * 用第一个值作为ans不断与其他值比对
 ### [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
+* 旋转k次，每次旋转一个元素
 ### [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
 ### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
 
