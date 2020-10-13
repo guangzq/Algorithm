@@ -69,6 +69,8 @@
 ### [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 * 旋转k次，每次旋转一个元素
 ### [27. 移除元素](https://leetcode-cn.com/problems/remove-element/)
+* 通过ans标记改变已有内存的值
+* 返回ans
 ### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
 
 
