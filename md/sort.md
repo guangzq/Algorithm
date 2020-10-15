@@ -72,5 +72,6 @@
 * 通过ans标记改变已有内存的值
 * 返回ans
 ### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
+利用a%10==0,a只能为小于10的数(包括0)
 
 
