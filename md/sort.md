@@ -74,4 +74,9 @@
 ### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
 利用a%10==0,a只能为小于10的数(包括0)
 
+## 链表系列
+## 栈相关
+### [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
+字典序的代码实现有点困难，先跳过
+
 
