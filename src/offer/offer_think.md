@@ -1,5 +1,9 @@
+## 刷题区
+* [Leetcode-剑指offer刷题区](https://leetcode-cn.com/problemset/lcof/)
+
 ## 剑指offer刷题总结
-[面试必刷-《剑指offer》刷题小结](https://zhuanlan.zhihu.com/p/56200260)
+* [面试必刷-《剑指offer》刷题小结](https://zhuanlan.zhihu.com/p/56200260)
+* [剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 
 一共66道题，分类如下：
 ### 数据结构类题目
