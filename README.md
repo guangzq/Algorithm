@@ -158,7 +158,7 @@ public  void inorder(TreeNode root) {
 从根结点开始入栈，不断找左子树，直到找到左子树，然后出栈，然后再找右子树
 
 ```java
-class Solution {
+import java.TreeNode;class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
